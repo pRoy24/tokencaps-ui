@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+
+.eula-license {
+  font-size: 9px;
+  margin-top: 8px;
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.auth-label-2 {
+  padding-left: 10px;
+
+  font-size: 10px;
+  display: inline-block;
+
+}
+
+.auth-label-3 {
+  font-size: 14px;
+  color: #891d1d;
+  cursor: pointer;
+}
+
+.auth-form {
+  .control-label {
+    width: 20%;
+  }
+  .form-control {
+    width: 50% !important;
+    display: inline-block !important;
+    margin-left: 4px !important;
+  }
+}
+
+.tp-image-frame {
+  position: relative;
+  width: 95%;
+  margin-left: 0;
+  padding: 6px 4px;
+  -webkit-box-shadow:
+          inset 0 0 20px #ECECEC,
+          inset 0 0 20px #ECECEC,
+          inset 0 0 20px #ECECEC;
+
+  -moz-box-shadow:
+          inset 0 0 20px #ECECEC,
+          inset 0 0 20px #ECECEC,
+          inset 0 0 20px #ECECEC;
+
+  box-shadow:
+          inset 0 0 20px #ECECEC,
+          inset 0 0 20px #ECECEC,
+          inset 0 0 20px #ECECEC;
+
+  text-align: center;
+}
+
+
+.auth-modal-logo {
+  width: 70px;
+  height: 90px;
+  margin-top: 4px;
+  margin-left: 6px;
+}
+
+.auth-app-label {
+  font-size: 14px;
+  font-weight: 900;
+  font-stretch: condensed;
+  color: #222A34;
+  margin-left: 0px;
+  padding-top: 10px;
+  font-family: 'Merriweather', serif;
+}
+

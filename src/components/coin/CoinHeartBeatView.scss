@@ -1,0 +1,43 @@
+@import "../../../src/Styles.css";
+
+.coin-social-label-head {
+  width: 100%;
+  display: inline;
+  overflow-x: hidden;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+$font-size: 14px;
+$line-height: 1;
+$lines-to-show: 3;
+
+.reddit-tldr-cell {
+  display: block; /* Fallback for non-webkit */
+  display: -webkit-box;
+
+  height: $font-size*$line-height*$lines-to-show; /* Fallback for non-webkit */
+  margin: 0 auto;
+  font-size: $font-size;
+
+  -webkit-line-clamp: $lines-to-show;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.reddit-link-cell {
+  background-color: #343B44;
+  border-radius: 2px;
+  padding-left: 4px;
+  padding-top: 6px;
+  font-size: 12px;
+}
+
+.reddit-link-cell span {
+  color: #ECECEC;
+  font-size: 14px;
+}
+.reddit-link-cell a {
+  color: #00B0F1;
+}

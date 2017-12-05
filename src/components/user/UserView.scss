@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Roboto+Slab|Saira+Extra+Condensed:700');
+
+.coin-search-list-response-container {
+  height: 120px;
+  overflow-y: scroll;
+}
+.search-symbol {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.search-row {
+  margin: 10px 4px;
+  cursor: pointer;
+}
+
+.coin-added-list {
+  margin-left: 4px;
+}
+
+.empty-text-user-container {
+
+  text-align: center;
+  font-size: 16px;
+  padding-top: 30px;
+}
+
+.coin-display-card {
+
+
+  display: inline-block;
+
+  background-color: #343B44;
+  width: 260px;
+  margin-left: 16px;
+  padding: 0px 4px;
+  min-height: 100px;
+  display: inline-block;
+  margin-top: 8px;
+  margin-bottom: 4px;
+  vertical-align: top;
+
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+@media (max-width: 400px) {
+  .coin-display-card {
+    width: 90%;
+  }
+}
+
+.coin-display-card:hover {
+  box-shadow: 0 6px 12px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.coin-display-heading-row {
+  background-color: #001317;
+  padding: 4px;
+}
+
+.coin-display-fullname {
+  display: inline-block;
+  font-family: 'Noto Serif', serif;
+  padding-left: 6px;
+  color: #ECECEC;
+}
+
+.coin-display-container {
+  padding: 4px 6px;
+}
+
+.coin-display-row {
+  padding-bottom: 4px;
+}
+
+.transaction-button {
+  float: right;
+  cursor: pointer;
+  padding-top: 6px;
+}
+
+.empty-template {
+  text-align: center;
+  color: #676E75;
+}
+
+.react-datepicker__time-list {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+.container-date  {
+  display: inline;
+}
+
+.react-datepicker-wrapper input {
+  width: 80px;
+  margin-left: 16px;
+  padding-top: 3px;
+  margin-top: 3px;
+}
+
+.amount-class {
+  position: absolute;
+  right: 20px;
+  top:0;
+  display: inline-block;
+}
+
+.price-class {
+  height: 22px;
+  margin: 2px 0px;
+  width: 46px;
+  display: inline-block;
+  padding: 0px 2px;
+  font-size: 10px;
+}
+
+.date-picker-tab {
+  position: relative;
+  width: 100%;
+}
+
+.react-datepicker__input-container {
+  color: black;
+  font-size: 10px;
+  border-radius: 2px;
+}
+
+.coin-display-row .form-control {
+  color: black;
+  font-size: 10px;
+}
+
+.add-trade-check {
+  padding-left: 4px;
+  color: #44B74A;
+}
+
+.add-trade-btn {
+  width: 40px;
+  display: inline;
+
+}
+
+.btn-group {
+  margin: 0px 4px;
+}
+
+.add-trade-currency-btn {
+  width: 70px !important;
+  font-size: 10px !important;
+  padding: 4px 2px !important;
+  margin: 3px 2px 0px;
+
+}
+
+.coin-user-data-graph {
+  margin-top: 14px;
+  margin-bottom: 6px;
+}
+
+.option-or {
+  font-size: 10px;
+  padding: 1px;
+  margin-top: 4px;
+  margin-right: 4px;
+}
+
+.sell-quantity {
+  margin: 0px 4px;
+}
+
+.add-currency-option {
+  width: 70px;
+  padding: 0 !important;
+}
+
+.dropdown-menu {
+  min-width: 40px !important;
+  background: #001317;
+  color: white;
+  padding-left: 0;
+}
+
+.dropdown-menu a {
+  padding-left: 4px !important;
+  color: #ECECEC !important;
+  font-size: 10px;
+}
+
+.dropdown-menu a:hover {
+  background-color: #222A34 !important;
+}
+
+.transaction-date-day {
+  font-size: 10px;
+}
+
+.transaction-date-time {
+  font-size: 8px;
+  padding: 2px 4px;
+  line-height: 0.8em;
+  text-align: center;
+}
+
+.transaction-record-row {
+  color: #ECECEC;
+  padding: 2px 0px;
+  font-size: 10px;
+  margin: 6px 2px;
+  border-bottom: 0.2px solid #545F88;
+}
+
+.user-card-container {
+
+}
+
+.remove-coin {
+  float: right;
+  margin-right: 4px;
+  margin-top: 5px;
+  cursor: pointer;
+}
